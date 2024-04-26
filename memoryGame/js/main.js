@@ -180,7 +180,6 @@ class MemoryGame {
 }
 
 
-
 const cards = [
     new Card(1, '1.png'),
     new Card(2, '2.png'),
