@@ -1,0 +1,20 @@
+{
+    "images": [
+      { "value": 1, "imageName": "1.jpg", "imageContent": "<h2>Imagen 1</h2><p>Este es el texto descriptivo de la imagen 1.</p>" },
+      { "value": 2, "imageName": "2.jpg", "imageContent": "<h2>Imagen 2</h2><p>Este es el texto descriptivo de la imagen 2.</p>" },
+      { "value": 3, "imageName": "3.jpg", "imageContent": "<h2>Imagen 3</h2><p>Este es el texto descriptivo de la imagen 3.</p>" },
+      { "value": 4, "imageName": "4.jpg", "imageContent": "<h2>Imagen 4</h2><p>Este es el texto descriptivo de la imagen 4.</p>" },
+      { "value": 5, "imageName": "5.jpg", "imageContent": "<h2>Imagen 5</h2><p>Este es el texto descriptivo de la imagen 5.</p>" },
+      { "value": 6, "imageName": "6.jpg", "imageContent": "<h2>Imagen 6</h2><p>Este es el texto descriptivo de la imagen 6.</p>" },
+      { "value": 7, "imageName": "7.jpg", "imageContent": "<h2>Imagen 7</h2><p>Este es el texto descriptivo de la imagen 7.</p>" },
+      { "value": 8, "imageName": "8.jpg", "imageContent": "<h2>Imagen 8</h2><p>Este es el texto descriptivo de la imagen 8.</p>" },
+      { "value": 9, "imageName": "9.jpg", "imageContent": "<h2>Imagen 9</h2><p>Este es el texto descriptivo de la imagen 9.</p>" },
+      { "value": 10, "imageName": "10.jpg", "imageContent": "<h2>Imagen 10</h2><p>Este es el texto descriptivo de la imagen 10.</p>" },
+      { "value": 11, "imageName": "11.jpg", "imageContent": "<h2>Imagen 11</h2><p>Este es el texto descriptivo de la imagen 11.</p>" },
+      { "value": 12, "imageName": "12.jpg", "imageContent": "<h2>Imagen 12</h2><p>Este es el texto descriptivo de la imagen 12.</p>" },
+      { "value": 13, "imageName": "13.jpg", "imageContent": "<h2>Imagen 13</h2><p>Este es el texto descriptivo de la imagen 13.</p>" },
+      { "value": 14, "imageName": "14.jpg", "imageContent": "<h2>Imagen 14</h2><p>Este es el texto descriptivo de la imagen 14.</p>" },
+      { "value": 15, "imageName": "15.jpg", "imageContent": "<h2>Imagen 15</h2><p>Este es el texto descriptivo de la imagen 15.</p>" }
+    ]
+  }
+  
