@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kanban board</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Kanban Board App</h1>
+        </header>
+
+        <main>
+            <section class="createSection">
+                <button id="createTask">Crear Tarea</button>
+                <div class="modal">
+                    <form id="addTaskForm">
+                        <button id="modalClose">x</button>
+                        <div class="group">
+                            <label for="taskName"> Nombre de la tarea:</label><br>
+                            <input type="text" id="taskName"><br>
+                        </div>
+                        <div class="group">
+                            <label for="taskDescription"> Descripción de la tarea:</label><br>
+                            <input type="text" id="taskDescription"><br>
+                        </div>
+                        <div class="group">
+                            <label for="categorySelect"> Category:</label><br>
+                            <select id="categorySelect">
+                                <option value="Backlog">To do</option>
+                                <option value="In Progress">In Progress</option>
+                                <option value="Done">Done</option>
+                            </select><br>
+                        </div>
+                        <button id="addTask" type="submit">Añadir tarea</button>
+                    </form>
+                </div>
+
+            </section>
+            <section class="board">
+                <article id="todo">
+                    <h2>To do</h2>
+                    <ul id="taskList">
+                        <li class="task">
+                            <h3>Tarea 1</h3>
+                            <p>Descripción de la tarea 1.</p>
+                            <p class="createDate">28/04/2024</p>
+                        </li>
+                    </ul>
+                </article>
+                
+            
+                <article id="inProgress">
+                    <h2>In progress</h2>
+
+                </article>
+                <article id="done">
+                    <h2>Done</h2>
+                </article>
+
+            </section>
+            
+        </main>
+
+        <footer>
+            <p>Derechos Reservados &copy; 2024 - Maider Barrutia</p>
+        </footer>
+    
+    </div>
+
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
