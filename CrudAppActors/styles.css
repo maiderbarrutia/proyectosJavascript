@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+button {
+    background: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    margin: 0 5px;
+  }
+
+/* Formulario añadir actores */
+.formAdd {
+    margin-bottom: 40px;
+    background-color: cadetblue;
+    padding: 20px;
+    text-align: center;
+}
+.formAdd h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/*Lista de actores */
+.listaActores h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#actors-list li {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr; /* Una columna para el nombre y dos columnas para los botones */
+    margin-bottom: 15px;
+}
+
+/* Estilos para los elementos de actor */
+.actor {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.modal {
+    display: none;
+    background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+
+.modal-content{
+    position: absolute;
+    top: 50%;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+    padding: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  background-color: cadetblue;
+  padding: 20px;
+}
+
+
+

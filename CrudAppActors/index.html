@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Actores</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Actores</h1>
+        <div class="formAdd">
+            <h2>Añadir Nuevo Actor</h2>
+            <form id="add-actor-form">
+                <input type="text" id="first_name" placeholder="Nombre">
+                <input type="text" id="last_name" placeholder="Apellido">
+                <button type="submit">Añadir Actor</button>
+            </form>
+        </div>
+        <div class="listaActores">
+            <h2>Lista de actores</h2>
+            <ul id="actors-list"></ul>
+        </div>
+
+        <!-- Modal de edición -->
+        <div id="edit-modal" class="modal">
+            <div class="modal-content">
+            <span id="close">&times;</span>
+            <h2>Editar Actor</h2>
+            <form id="edit-actor-form">
+                <label for="edit-first-name">Nombre:</label>
+                <input type="text" id="edit-first-name" name="edit-first-name">
+                <label for="edit-last-name">Apellido:</label>
+                <input type="text" id="edit-last-name" name="edit-last-name">
+                <button type="button" id="edit-save-button">Guardar</button>
+            </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
