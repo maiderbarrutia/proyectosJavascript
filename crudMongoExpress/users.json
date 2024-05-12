@@ -1,21 +1,18 @@
 [
     {
-      "nombre": "Juan",
-      "apellido": "Pérez",
-      "email": "juan@example.com",
-      "edad": 30
+      "name": "Juan",
+      "surname": "Pérez",
+      "email": "juan@example.com"
     },
     {
-      "nombre": "María",
-      "apellido": "Gómez",
-      "email": "maria@example.com",
-      "edad": 25
+      "name": "María",
+      "surname": "Gómez",
+      "email": "maria@example.com"
     },
     {
-      "nombre": "Carlos",
-      "apellido": "Martínez",
-      "email": "carlos@example.com",
-      "edad": 35
+      "name": "Carlos",
+      "surname": "Martínez",
+      "email": "carlos@example.com"
     }
   ]
   
